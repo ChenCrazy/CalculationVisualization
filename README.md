@@ -88,7 +88,7 @@ PyQt4-4.11.4-cp36-cp36m-win_amd64.whl
 
 ## 2.TVTK管线与数据加载  
 ### 管线技术（Pipline,流水线技术）
-![理解TVTK的管线](https://github.com/CrazyChen/CalculationVisualization/raw/master/img/理解Tvtk的管线.png)  
+![理解TVTK的管线](img/理解Tvtk的管线.png)  
 将各个对象串连起来，每个对象只需要实现相对简单的功能，整个管线根据需求实现复杂的数据可视化处理，每个对象随着用户的交互不断的发生更新。
 * 可视化管线  
 将原始数据加工成图形数据的过程  
@@ -167,11 +167,13 @@ Mayavi中主要有两大部分功能：一类是处理图形可视化和图形�
 |主视窗和UI对象|DecoratedScene、MayaviScene、SceneEditor、MlabSceneModel、EngineView、EngineRichView|通过这类函数实现在其他库中构建的用户界面里嵌入mayavi窗口。比如mayavi结合TraitsUI构建一个可交互的三维可视化应用。|
 ---
 ### 快速绘图实例  
-[快速绘制实例1](MayaviDemo1.py)  
-![](img\mayavidemo1.png)  
+[快速绘制实例1](MayaviDemo1.py)     
 
+![ ](img/mayavidemo1.png)     
+   
+ 
 [快速绘制实例2](MayaviDemo2.py)  
-![](img\mayavidemo2.png)  
+![ ](img/mayavidemo2.png)  
  
 --- 
 ### Mayavi管线   
@@ -388,7 +390,7 @@ LUT：Look Up Table。
 响应按键Button:’Left’,’Middle’or ‘Right’  
 Remove:如果值为True，则callback函数不起作用  
 返回：一个vtk picker 对象   
-![](img\VTKpicker.png)  
+![](img/VTKpicker.png)  
 
 
 ---
@@ -611,7 +613,7 @@ View（title，width，height，resizable…）
 >**模态窗口：在此窗口关闭之前，其他窗口不能激活；**  
 >**即时更新：修改控件内容，立即反应到模型数据上。**   
    
-#### 调用使用时，有两类命令   
+#### 调用使用时，有两类命令     
 
 |configure\_traits |edit\_traits()|
 |---|---|
@@ -623,17 +625,18 @@ View（title，width，height，resizable…）
 ----
 
 
-~~[TraitUI与Mayavi结合实例](doc/TraitsUI与Mayavi应用实例.pdf)~~
+[~~TraitUI与Mayavi结合实例~~](doc/TraitsUI与Mayavi应用实例.pdf)
 
-  
----  
+     
+---    
+
 [回到顶部](#readme)    
-  
+    
 ---  
   
   
-
-# 四、三维可视之运算    
-~~**[SciPy库的介绍和拟合与统计运算](doc/Scipy基础一.pdf)**  
-**[SciPy库的线性代数、积分和差值等运算](Scipy基础二.pdf)**  
-**[SciPy库实例](Scipy可视化实例.pdf)**~~  
+  
+# 四、三维可视之运算          
+**[~~SciPy库的介绍和拟合与统计运算~~](doc/Scipy基础一.pdf)**     
+**[~~SciPy库的线性代数、积分和差值等运算~~](doc/Scipy基础二.pdf)**    
+**[~~SciPy库实例~~](doc/Scipy可视化实例.pdf)**   
